@@ -53,6 +53,9 @@ resource "azurerm_windows_virtual_machine" "main" {
   resource_group_name   = azurerm_resource_group.main.name
   network_interface_ids = [azurerm_network_interface.main.id]
   size                  = "Standard_B1ls"
+  tags = {
+    Name = "Test"
+  }
 
   os_disk {
     name                 = "${random_pet.main.id}-disk"
