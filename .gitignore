@@ -1,0 +1,25 @@
+# Reveal.js
+.idea/
+*.iml
+*.iws
+*.eml
+out/
+.DS_Store
+.svn
+log/*.log
+tmp/**
+node_modules/
+.sass-cache
+
+# Terraform
+.terraform*
+*.tfstate*
+
+# General
+.DS_Store
+**/students.yaml
+.vscode/settings.json
+
+mykey
+**/student-*.tf
+
