@@ -13,10 +13,10 @@ terraform {
   }
 
   cloud {
-    organization = "kl-lab"
+    organization = "jacobm"
 
     workspaces {
-      name = "devops-azure-my-main-project"
+      name = "keith-tfc-test"
     }
   }
 
